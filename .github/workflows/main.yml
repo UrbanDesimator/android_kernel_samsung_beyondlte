@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the lineage-17.1 branch
   push:
-    branches: [ lineage-17.1 ]
+    branches: [ lineage-18.1 ]
   pull_request:
-    branches: [ lineage-17.1 ]
+    branches: [ lineage-18.1 ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
